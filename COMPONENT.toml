@@ -1,0 +1,16 @@
+[component]
+name = "SigmaOS-craft-word"
+tier = 5
+stability = "scaffold"
+language = "rust"
+description = "Word processing integration for SigmaOS creative suite — rich text, templates, and document layout"
+upstream = []
+
+[contract]
+provides = ["word-processing", "rich-text-layout"]
+depends_on = []
+
+[maturity]
+status = "Scaffold"
+test_evidence = "Compiles"
+next_milestone = "Verification test suite"

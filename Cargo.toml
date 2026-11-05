@@ -1,0 +1,9 @@
+[package]
+name = "sigmaos_craft_word"
+version = "0.1.0"
+edition = "2021"
+description = "Word processing integration for SigmaOS creative suite — rich text, templates, and document layout"
+
+[lib]
+name = "sigmaos_craft_word"
+path = "src/lib.rs"
