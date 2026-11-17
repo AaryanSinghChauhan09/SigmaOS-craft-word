@@ -1,7 +1,7 @@
 [component]
 name = "SigmaOS-craft-word"
 tier = 5
-stability = "scaffold"
+stability = "beta"
 language = "rust"
 description = "SigmaOS component SigmaOS-craft-word"
 upstream = []
@@ -11,6 +11,6 @@ provides = ["word-processing", "rich-text-layout"]
 depends_on = []
 
 [maturity]
-status = "Scaffold"
+status = "Implemented"
 test_evidence = "Compiles"
 next_milestone = "Verification test suite"
